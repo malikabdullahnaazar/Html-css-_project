@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 6rem;
+}
+
+.nav-content {
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.right-nav {
+    padding-left: 50%;
+}
+
+.logo {
+    display: block;
+}
+
+.top {
+    display: flex;
+    position: relative;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+
+.left-box {
+    position: absolute;
+    left: 15%;
+    margin-top: 10%;
+    width: 40%;
+}
+
+.left-box h1 {
+    font-size: 7rem;
+    color: white;
+    font-weight: normal;
+}
+
+.left-box h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+}
+
+.right-box {
+    position: absolute;
+    margin-top: 10%;
+    right: 15%;
+    width: 30%;
+}
+
+.right-box h2 {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.5rem;
+    margin-top: 5%;
+}
+
+.right-box p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.right-box button {
+    border-radius: 5rem;
+    margin-top: 5%;
+    border: 0rem;
+    height: 6rem;
+    width: 20rem;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #e84a90;
+    letter-spacing: 0.3rem;
+}
+
+.right-box button:hover {
+    background-color: #e7247c;
+    cursor: pointer;
+}
+
+.sec2 {
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.sec2 h2 {
+    font-size: 7rem;
+    font-weight: normal;
+}
+
+.sec2 p {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: auto;
+    width: 65%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+.sec2contents {
+    display: flex;
+}
+
+.sec2contents .left {
+    width: 50%;
+}
+
+.sec2contents .left img {
+    width: 100%;
+}
+
+.sec2contents .right {
+    width: 50%;
+    right: 0rem;
+}
+
+.sec2contents .right .right-r {
+    display: flex;
+}
+
+.sec2contents .right .right-rr {
+    display: flex;
+}
+
+.sec2contents .right .box1 {
+    width: 60%;
+    height: 25rem;
+    margin-right: 5%;
+    background-color: #e84a90;
+}
+
+.sec2contents .right .box2 {
+    width: 60%;
+    height: 25rem;
+    margin-right: 5%;
+    background-color: #e5e5e5;
+}
+
+.sec2contents .right .box3 {
+    width: 60%;
+    height: 25rem;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: #e5e5e5;
+}
+
+.sec2contents .right .box4 {
+    width: 60%;
+    height: 25rem;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: #545af8;
+}
+
+.sec3 {
+    text-align: center;
+    margin-top: 5%;
+    background-color: #e5e5e5;
+}
+
+.sec3-contents {
+    background-color: #e5e5e5;
+}
+
+.sec3 .sec3-contents h2 {
+    font-size: 7rem;
+    font-weight: normal;
+    padding-top: 5%;
+}
+
+.sec3 .sec3-contents p {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.sec3 .sec3-contents img {
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.sec4 {
+    display: flex;
+    position: relative;
+}
+
+.sec4 .sec4-left {
+    width: 50%;
+    margin: 10%;
+    position: absolute;
+}
+
+.sec4 .sec4-left img {
+    width: 100%;
+}
+
+.sec4-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(#545af8, #e84a90);
+    position: absolute;
+    top: 8rem;
+    right: 48rem;
+}
+
+.sec4 .sec4-right {
+    width: 35%;
+    margin-left: 58%;
+    margin-top: 14%;
+    background-color: #e5e5e5;
+    text-align: center;
+    z-index: 1;
+}
+
+.sec4 .sec4-right h2 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 5%;
+}
+
+.sec4 .sec4-right p {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: 10%;
+    text-align: left;
+}
+
+.sec4 .sec4-right button {
+    border-radius: 5rem;
+    margin-top: 5%;
+    border: 0rem;
+    height: 6rem;
+    width: 20rem;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #545af8;
+    letter-spacing: 0.3rem;
+    margin-bottom: 5%;
+}
+
+.sec5 {
+    background-image: linear-gradient(#545af8, #e84a90);
+    margin-top: 5%;
+}
+
+.sec5 .boxes {
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.sec5 .boxes .box1,
+.boxes .box2,
+.boxes .box3,
+.boxes .box4,
+.boxes .box5 {
+    background-color: white;
+    width: 20%;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    height: 35rem;
+    text-align: center;
+    box-shadow: 5px 5px #33333357;
+}
+
+.sec5 .boxes .box1,
+.boxes .box3,
+.boxes .box5 {
+    margin-top: 15%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.sec5 .boxes .box1 h2,
+.boxes .box2 h2,
+.boxes .box3 h2,
+.boxes .box4 h2,
+.boxes .box5 h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 20%;
+    color: #e84a90;
+}
+
+.sec5 .boxes .box1 p,
+.boxes .box2 p,
+.boxes .box3 p,
+.boxes .box4 p,
+.boxes .box5 p {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 8%;
+    color: #4c615a;
+}
+
+.sec5 .boxes .box1 a,
+.box2 a,
+.box3 a,
+.box4 a,
+.box5 a {
+    font-size: 2rem;
+    color: #4c615a;
+}
+
+.sect6 {
+    background-color: #E5E5E5;
+    display: flex;
+    height: 170vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.col1, .col3 {
+    flex-basis: 30%;
+}
+
+.col2 {
+    flex-basis: 27%;
+    margin-top: 10%;
+}
+
+.col1 {
+    margin-top: 20%;
+}
+
+.sect6 .col1 {
+    background-image: url('girl.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    margin-left: 6.5%;
+}
+
+.col2, .col3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 .box1 {
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-top: 55px;
+}
+
+.col2 .box1 h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.col2 .box1 p {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.col2 .box2 {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.col2 .box2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: top center;
+}
+
+.col3 .box1 {
+    width: 100%;
+    height: 45%;
+    background-image: url('girl2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.col3 .box2 {
+    width: 100%;
+    height: 55%;
+    background-image: linear-gradient(rgb(85,90,247),rgb(231,74,144));
+    font-size: 36px;
+    color: #fff;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+.col3 .box2 p {
+    width: 85%;
+}
+
+.col3 .box2 img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sect7 {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 130vh;
+    position: relative;
+}
+
+.sect7 .box1 {
+    position: absolute;
+    width: 75%;
+    height: 55%;
+    background-image: linear-gradient(rgb(85,90,247),rgb(231,74,144));
+    left: 17%;
+}
+
+.sect7 .box2 {
+    position: absolute;
+    width: 58%;
+    height: 60%;
+    background-color: rgb(231,74,144);
+    top: 30%;
+    left: 8%;
+}
+
+.sect7 .box3 {
+    width: 75%;
+    height: 70%;
+    background-color: #fff;
+    position: absolute;
+    left: 12%;
+    top: 10%;
+    z-index: 1;
+}
+
+.sect7 .box3 .contentbox3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.sect7 .box3 .contentbox3 .col1 {
+    background-color: #fff;
+    min-width: 50%;
+    margin: 0;
+}
+
+.sect7 .box3 .contentbox3 .col1 img {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sect7 .box3 .contentbox3 .col2 {
+    min-width: 40%;
+    margin: 0;
+    margin-left: 10%;
+    padding-top: 60px;
+    display: inline-block;
+}
+
+.sect7 .box3 .contentbox3 .col2 h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.sect7 .box3 .contentbox3 .col2 p {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    width: 95%;
+}
+
+.sect7 .box3 .contentbox3 .col2 a {
+    padding: 15px 30px;
+    letter-spacing: 1;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #343BF7;
+}
+
+#p2 {
+    margin: 0 0 50px;
+}
+
+.sect8 {
+    width: 100%;
+    height: 210vh;
+    background-color: #fff;
+    padding-top: 7%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.sect8 .backdeg {
+    width: 50%;
+    height: 83%;
+    background-image: linear-gradient(rgb(85,90,248) ,rgb(231,74,144));
+    position: absolute;
+    left: 20%;
+}
+
+.sect8 .gridlayout {
+    width: 75%;
+    height: 110vh;
+    display: grid;
+    grid-gap: 2.3% 1.6%;
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+    z-index: 3;
+}
+
+.sect8 .gridlayout .box {
+    width: 100%;
+    height: 100%;
+    background-color: #4c615a;
+    cursor: pointer;
+}
+
+.gridlayout .box1, .gridlayout .box2, .gridlayout .box3, .gridlayout .box4, .gridlayout .box5, .gridlayout .box6 {
+    background-position: center;
+    background-size: cover;
+}
+
+.sect8 .gridlayout .box .hov {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.sect8 .gridlayout .box:hover .hov {
+    opacity: 0.25;
+}
+
+.sect8 .gridlayout .box1 {
+    background-image: url('grid1.jpg');
+}
+
+.sect8 .gridlayout .box2 {
+    background-image: url('grid2.jpg');
+}
+
+.sect8 .gridlayout .box3 {
+    background-image: url('grid3.jpg');
+}
+
+.sect8 .gridlayout .box4 {
+    background-image: url('grid4.jpg');
+}
+
+.sect8 .gridlayout .box5 {
+    background-image: url('grid5.jpg');
+}
+
+.sect8 .gridlayout .box6 {
+    background-image: url('grid6.jpg');
+}
+
+.sect8 .whitebox {
+    width: 40%;
+    height: 36%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 2.5%;
+    z-index: 4;
+    padding: 30px;
+}
+
+.sect8 .whitebox h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.sect8 .whitebox p {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    width: 85%;
+}
+
+.sect8 .whitebox a {
+    padding: 15px 30px;
+    letter-spacing: 1;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #343BF7;
+    font-size: 2rem;
+}
+
+#wp2 {
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 100%;
+    height: 90vh;
+    background-color: #e5e5e5;
+    position: relative;
+}
+
+.contact .contback {
+    width: 100%;
+    height: 35%;
+    background-image: linear-gradient(rgb(85,90,248) ,rgb(231,74,144));
+    position: absolute;
+    top: 32.5%;
+}
+
+.contact .contcontent {
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    border-radius: 15px;
+    display: flex;
+}
+
+.contact .contcontent .left {
+    width: 40%;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 70px 0 0 50px;
+    line-height: 1.6;
+}
+
+.contact .contcontent .form {
+    width: 60%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contact .contcontent .left h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.contact .contcontent .left p {
+    font-size: 20px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+#ico3 {
+    padding-right: 15px;
+}
+
+.contact .contcontent .left p i {
+    padding-right: 10px;
+    color: #545AF8;
+}
+
+.contact .contcontent .left .links {
+    width: 70%;
+    height: 10%;
+    margin-top: 13%;
+    display: flex;
+}
+
+.contact .contcontent .left .links i {
+    font-size: 35px;
+    padding-right: 15px;
+    color: #545AF8;
+}
+
+.contact .contcontent .form .fields {
+    width: 80%;
+    height: 70%;
+    margin-left: 12%;
+    margin-top: 15%;
+}
+
+.contact .contcontent .form .fields input, textarea {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    background-color: #e5e5e5;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.contact .contcontent .form .fields button {
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #343BF7;
+    letter-spacing: 1;
+    color: #fff;
+    font-size : 20px;
+    cursor: pointer;
+}
+
+.contact .contcontent .form .fields .mess {
+    display: none;
+}
+
+textarea {
+    padding-top: 2px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    height: 30%;
+}
+
+textarea::placeholder {
+    color: #757575;
+}
